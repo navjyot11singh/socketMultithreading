@@ -4,7 +4,7 @@ In this program we are implementing sockets using python. The project supports m
 performing basic terminal tasks like cd, mkdir, upload, download and remove. This is one of the 
 best examples to learn about multithreading in sockets.
 
-**Server**: ******The****** server initializes its socket and internal variables and awaits upcoming connections
+# **Server**: ******The****** server initializes its socket and internal variables and awaits upcoming connections
 from clients. When a client connects to the designated socket (pre-defined), the server handles
 the connection in a new thread and awaits connections from other clients. In the client thread,
 the server and client interact with each other to execute the upcoming client commands until the
